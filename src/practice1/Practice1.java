@@ -7,12 +7,9 @@ public class Practice1 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите аргументы через пробел: ");
         String inLine = in.nextLine();
-        if (inLine.length == 0) {
-            System.out.println("Вы не ввели аргументы");
-        } else {
-            for (int i = 0; i < inLine.length; i++) {
-                System.out.println(args[i]);
-            }
+        String[] array = inLine.split(" ");
+        for (String s : array) {
+            System.out.println(s);
         }
     }
 }
