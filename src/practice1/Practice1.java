@@ -8,6 +8,8 @@ public class Practice1 {
         System.out.print("¬ведите аргументы через пробел: ");
         String inLine = in.nextLine();
         String[] array = inLine.split(" ");
+
+
         for (String s : array) {
             System.out.println(s);
         }
