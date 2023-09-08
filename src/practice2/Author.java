@@ -23,6 +23,6 @@ public class Author {
         return gender;
     }
     public String toString() {
-        return "Автор [ Имя = " + name + ", email = " + email + ", Пол = " + gender + " ]";
+        return "Автор:  Имя = " + name + ", email = " + email + ", Пол = " + gender + " ";
     }
 }
