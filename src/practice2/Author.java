@@ -13,9 +13,6 @@ public class Author {
     public String getName() {
         return name;
     }
-    public void setName(String name) {
-        this.name = name;
-    }
     public String getEmail() {
         return email;
     }
@@ -24,9 +21,6 @@ public class Author {
     }
     public char getGender() {
         return gender;
-    }
-    public void setGender(char gender) {
-        this.gender = gender;
     }
     public String toString() {
         return "Автор [ Имя = " + name + ", email = " + email + ", Пол = " + gender + " ]";
