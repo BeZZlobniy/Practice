@@ -6,13 +6,17 @@ public class ArraySumMinMax {
     public static int input() {
         try{
             Scanner scanner = new Scanner(System.in);
-            return scanner.nextInt();
+            int value = scanner.nextInt();
+            if (value > 0){
+                return value;
+            }
+            System.out.println("¬ведено некорректное значение, введите целое натуральное число");
+            return input();
         }
         catch(Exception e){
             System.out.println("¬ведено некорректное значение, введите целое натуральное число");
             return input();
         }
-
     }
     public static void main(String[] args) {
 

@@ -35,7 +35,6 @@ public class HomeForCat {
         CatHome.addCat(cat1);
         CatHome.addCat(cat2);
         CatHome.addCat(cat3);
-
         CatHome.printCats();
     }
 }
