@@ -1,11 +1,20 @@
 package practice1;
 
+import java.util.Scanner;
+
 public class FactorialCalculator {
-    // Метод для вычисления факториала числа
-    public static long calculateFactorial(int n) {
-        if (n < 0) {
-            throw new IllegalArgumentException("Факториал определен только для неотрицательных чисел.");
+    public static int input() {
+        try{
+            Scanner scanner = new Scanner(System.in);
+            return scanner.nextInt();
         }
+        catch(Exception e){
+            System.out.println("Введено некорректное значение, введите целое натуральное число");
+            return input();
+        }
+
+    }
+    public static long calculateFactorial(int n) {
         long factorial = 1;
 
         for (int i = 1; i <= n; i++) {
@@ -16,8 +25,8 @@ public class FactorialCalculator {
     }
 
     public static void main(String[] args) {
-        // Пример использования метода для вычисления факториала
-        int number = 5; // Здесь вы можете изменить число для вычисления факториала
+
+        int number = input();
         long result = calculateFactorial(number);
         System.out.println("Факториал числа " + number + " равен " + result);
     }
