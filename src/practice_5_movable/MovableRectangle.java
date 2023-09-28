@@ -12,12 +12,19 @@ public class MovableRectangle implements Movable{
         return topLeft.ySpeed == bottomRight.ySpeed && topLeft.xSpeed == bottomRight.xSpeed;
     }
 
+    public void setSpeed(int xSpeed, int ySpeed){
+        topLeft.ySpeed = ySpeed;
+        topLeft.xSpeed = xSpeed;
+    }
+
     @Override
     public String toString() {
         return "MovableRectangle{" +
-                "topLeft=" + topLeft +
-                ", bottomRight=" + bottomRight +
-                '}';
+                "topLeft=MovablePoint{x=" + topLeft.x + ", y="+ topLeft.y+
+                "}, bottomRight=MovablePoint{x=" + bottomRight.x + ", y=" + bottomRight.y +
+                "}, xSpeed = " + topLeft.xSpeed +
+                ", ySpeed=" + topLeft.ySpeed +
+                "}";
     }
 
     @Override
@@ -27,9 +34,9 @@ public class MovableRectangle implements Movable{
             bottomRight.moveUp();
         }
         else{
-            System.out.println("Значения скоростей точек прямоугольника не совпадает topLeft: \n xSpeed = " +
-                    topLeft.xSpeed + "\n ySpeed = " + topLeft.ySpeed + "\n bottomRight: \n xSpeed = " +
-                    bottomRight.xSpeed + "\n ySpeed = " + bottomRight.ySpeed);
+            System.out.println("The values of the speeds of the rectangle points do not match topLeft: \nxSpeed = " +
+                    topLeft.xSpeed + "\nySpeed = " + topLeft.ySpeed + "\nbottomRight: \nxSpeed = " +
+                    bottomRight.xSpeed + "\nySpeed = " + bottomRight.ySpeed);
         }
     }
 
@@ -40,9 +47,9 @@ public class MovableRectangle implements Movable{
             bottomRight.moveDown();
         }
         else{
-            System.out.println("Значения скоростей точек прямоугольника не совпадает topLeft: \n xSpeed = " +
-                    topLeft.xSpeed + "\n ySpeed = " + topLeft.ySpeed + "\n bottomRight: \n xSpeed = " +
-                    bottomRight.xSpeed + "\n ySpeed = " + bottomRight.ySpeed);
+            System.out.println("The values of the speeds of the rectangle points do not match topLeft: \nxSpeed = " +
+                    topLeft.xSpeed + "\nySpeed = " + topLeft.ySpeed + "\nbottomRight: \nxSpeed = " +
+                    bottomRight.xSpeed + "\nySpeed = " + bottomRight.ySpeed);
         }
     }
 
@@ -53,9 +60,9 @@ public class MovableRectangle implements Movable{
             bottomRight.moveLeft();
         }
         else{
-            System.out.println("Значения скоростей точек прямоугольника не совпадает topLeft: \n xSpeed = " +
-                    topLeft.xSpeed + "\n ySpeed = " + topLeft.ySpeed + "\n bottomRight: \n xSpeed = " +
-                    bottomRight.xSpeed + "\n ySpeed = " + bottomRight.ySpeed);
+            System.out.println("The values of the speeds of the rectangle points do not match topLeft: \nxSpeed = " +
+                    topLeft.xSpeed + "\nySpeed = " + topLeft.ySpeed + "\nbottomRight: \nxSpeed = " +
+                    bottomRight.xSpeed + "\nySpeed = " + bottomRight.ySpeed);
         }
     }
 
@@ -66,9 +73,9 @@ public class MovableRectangle implements Movable{
             bottomRight.moveRight();
         }
         else{
-            System.out.println("Значения скоростей точек прямоугольника не совпадает topLeft: \n xSpeed = " +
-                    topLeft.xSpeed + "\n ySpeed = " + topLeft.ySpeed + "\n bottomRight: \n xSpeed = " +
-                    bottomRight.xSpeed + "\n ySpeed = " + bottomRight.ySpeed);
+            System.out.println("The values of the speeds of the rectangle points do not match topLeft: \nxSpeed = " +
+                    topLeft.xSpeed + "\nySpeed = " + topLeft.ySpeed + "\nbottomRight: \nxSpeed = " +
+                    bottomRight.xSpeed + "\nySpeed = " + bottomRight.ySpeed);
         }
     }
 }
