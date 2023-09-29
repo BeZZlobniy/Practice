@@ -11,6 +11,6 @@ public class TestBook {
         System.out.println("Название: " + book.getTitle());
         System.out.println("Год написания "+ book.getYear());
 
-        book.toString();
+        System.out.println(book);
     }
 }
