@@ -1,12 +1,12 @@
 package practice_10;
 
 import java.util.Arrays;
-
+import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
-        int k = 7;
-        int s = 10;
-
+        Scanner in = new Scanner(System.in);
+        int k = in.nextInt();
+        int s = in.nextInt();
         long count = countNumbers(k, s);
         System.out.println("Количество " + k + "-значных натуральных чисел с суммой цифр " + s + ": " + count);
     }

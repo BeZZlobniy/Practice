@@ -1,5 +1,7 @@
 package practice_10;
 
+import java.util.Scanner;
+
 public class Task2 {
     public static void monAfter(int n, int max){
         if (n <= max) {
@@ -9,7 +11,8 @@ public class Task2 {
     }
 
     public static void main(String[] args){
-        int n = 4;
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
         monAfter(1, n);
     }
 }

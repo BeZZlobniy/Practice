@@ -7,6 +7,7 @@ class Phone implements Priceable {
         this.price = price;
     }
 
+    @Override
     public double getPrice() {
         return price;
     }

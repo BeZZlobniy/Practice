@@ -2,7 +2,7 @@ package practice_5;
 
 public class Square extends Rectangle {
     public Square() {
-        super();
+        super(1.0, 2.0, "RED", false);
     }
 
     public Square(double side) {

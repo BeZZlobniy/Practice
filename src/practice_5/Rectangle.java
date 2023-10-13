@@ -3,7 +3,7 @@ package practice_5;
 public class Rectangle extends Shape {
     protected double width, length;
 
-    public Rectangle() {
+    public Rectangle(double v, double v1, String red, boolean b) {
         super();
         length = 0;
         width = 0;
@@ -57,3 +57,4 @@ public class Rectangle extends Shape {
                 '}';
     }
 }
+
