@@ -10,6 +10,7 @@ public class Chair extends Furniture {
 
     @Override
     public void assemble() {
-        System.out.println("Собираем стул из материала " + getMaterial() + " с ценой " + getPrice() + " и " + numOfLegs + " ножками");
+        System.out.println("Собираем стул из материала " + getMaterial() + " с ценой " +
+                getPrice() + " и " + numOfLegs + " ножками");
     }
 }

@@ -10,6 +10,7 @@ public class Table extends Furniture {
 
     @Override
     public void assemble() {
-        System.out.println("Собираем стол из материала " + getMaterial() + " с ценой " + getPrice() + " и " + numOfSeats + " посадочными местами");
+        System.out.println("Собираем стол из материала " + getMaterial() +
+                " с ценой " + getPrice() + " и " + numOfSeats + " посадочными местами");
     }
 }
