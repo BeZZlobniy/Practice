@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251">
+    <file url="file://$PROJECT_DIR$/src/Practice_13/FileWrite.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/BoundedWaitList.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/WaitList.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/practice1/Practice1.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/practice_11_task3/Main.java" charset="windows-1251" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>

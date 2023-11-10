@@ -1,6 +1,7 @@
 package practice_9;
 
-class Book implements Priceable {
+class
+Book implements Priceable {
     private double price;
 
     public Book(double price) {
