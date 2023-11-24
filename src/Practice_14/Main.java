@@ -39,9 +39,9 @@ public class Main {
         uwl.add(5645);
         uwl.add(6347);
         System.out.println(uwl);
-        uwl.remove(5);
+        uwl.remove(25);
         System.out.println(uwl);
-        uwl.moveToBack(23);
+        uwl.moveToBack(213);
         System.out.println(uwl);
     }
 }

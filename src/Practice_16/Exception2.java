@@ -21,9 +21,8 @@ public class Exception2 {
             System.out.println("Attempted division by zero");
         } catch (NumberFormatException e) {
             System.out.println("The use of non-integer values was detected");
-        } finally {
-            System.out.println("Error");
+        } catch (Exception e1) {
+            System.out.println("Exception");
         }
-
     }
 }

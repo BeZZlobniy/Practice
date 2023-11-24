@@ -8,5 +8,8 @@ public class TestExceptions {
 
         Exception2 exception2 = new Exception2();
         exception2.exceptionDemo2();
+
+        Exception3 exception = new Exception3();
+        exception.exceptionDemo();
     }
 }
