@@ -12,32 +12,42 @@ public class Tester {
         String[] stringArr = {"hate", "the", "java"};
         System.out.println(toList(stringArr));
 
-        Arr<String> lonArr = new Arr<>();
-        lonArr.add("1é");
-        lonArr.add("2é");
-        lonArr.add("3é");
-        lonArr.add("4é");
-        lonArr.add("5é");
-        lonArr.add("6é");
-        lonArr.add("7é");
-        lonArr.add("8é");
-        lonArr.add("9é");
-        lonArr.add("10é");
-        lonArr.add("11é");
-        System.out.println(lonArr.get(8));
-        System.out.println(lonArr.getSize());
-        File dir = new File("C:\\Users\\bezzlobniy\\IdeaProjects\\Practice\\src\\Practice_19");
-        showFiles(dir);
+        Arr<String> stringArr1 = new Arr<>();
+        stringArr1.add("1é");
+        stringArr1.add("2é");
+        stringArr1.add("3é");
+        stringArr1.add("4é");
+        stringArr1.add("5é");
+        stringArr1.add("6é");
+        stringArr1.add("7é");
+        stringArr1.add("8é");
+        stringArr1.add("9é");
+        stringArr1.add("10é");
+        stringArr1.add("11é");
+        System.out.println(stringArr1.get(8));
+        System.out.println(stringArr1.getSize());
+
+        ArrayList<String> fileNames = getFileNames("C:\\Users\\bezzlobniy\\IdeaProjects\\Practice\\src\\Practice_19");
+        for (int i = 0; i < 5 && i < fileNames.size(); i++) {
+            System.out.println(fileNames.get(i));
+        }
     }
 
     public static <E> ArrayList<E> toList(E[] array) {
         return new ArrayList<>(Arrays.asList(array));
     }
 
-    public static void showFiles(File someDir) {
-        ArrayList<String> files = new ArrayList<>(Arrays.asList(someDir.list()));
-        for (int i = 0; i < 5; i++) {
-            System.out.println(files.get(i));
+    public static ArrayList<String> getFileNames(String directoryPath) {
+        File directory = new File(directoryPath);
+        File[] files = directory.listFiles();
+        ArrayList<String> fileNames = new ArrayList<String>();
+        if (files != null) {
+            for (File file : files) {
+                if (file.isFile()) {
+                    fileNames.add(file.getName());
+                }
+            }
         }
+        return fileNames;
     }
 }

@@ -1,24 +1,27 @@
 package Practice_19;
 
+import java.util.ArrayList;
+
 public class Arr<E> {
-    private Object[] elements;
+    private ArrayList<E> elements;
     private int size;
 
     public Arr() {
-        elements = new Object[10];
+        elements = new ArrayList<E>();
         size = 0;
     }
 
     public void add(E el) {
-        if (size >= elements.length) {
-            Object[] newElements = new Object[2 * elements.length];
-            for (int i = 0; i < elements.length; i++) {
-                newElements[i] = elements[i];
-            }
-            elements = newElements;
-        }
-        elements[size] = el;
+        elements.add(el);
         size++;
+    }
+
+    public void setElements(ArrayList<E> elements) {
+        this.elements = elements;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public int getSize() {
@@ -29,6 +32,6 @@ public class Arr<E> {
         if (index >= size) {
             throw new IndexOutOfBoundsException();
         }
-        return (E)elements[index];
+        return elements.get(index);
     }
 }

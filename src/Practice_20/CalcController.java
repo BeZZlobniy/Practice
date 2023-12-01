@@ -10,7 +10,7 @@ public class CalcController {
         model = new Calc();
         view = new CalcView();
 
-        addBtnAction(view.getButtons()[0][0], "Pi");
+        addBtnAction(view.getButtons()[0][0], "π");
         addBtnAction(view.getButtons()[0][1], "e");
         addBtnAction(view.getButtons()[0][2], ".");
         addBtnAction(view.getButtons()[1][0], "1");

@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class CalcView extends JFrame {
     private static final String[][] BUTTON_TEXTS = {
-            {"Pi", "e", ".", "C"},
+            {"ПЂ", "e", ".", "C"},
             {"1", "2", "3", "+"},
             {"4", "5", "6", "-"},
             {"7", "8", "9", "*"},
@@ -19,7 +19,7 @@ public class CalcView extends JFrame {
     private final JTextField field = new JTextField(14);
 
     CalcView() {
-        super("Ввод чисел от 0 до бесконечности");
+        super("Р’РІРѕРґ С‡РёСЃРµР» РѕС‚ 0 РґРѕ Р±РµСЃРєРѕРЅРµС‡РЅРѕСЃС‚Рё");
 
         field.setFont(BTN_FONT.deriveFont(Font.PLAIN));
         field.setEditable(false);

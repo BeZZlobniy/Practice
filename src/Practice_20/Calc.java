@@ -40,7 +40,7 @@ public class Calc {
             else if (Objects.equals(exp[i], "e")) {
                 numbers.push(Math.E);
             }
-            else if (Objects.equals(exp[i], "?")) {
+            else if (Objects.equals(exp[i], "π")) {
                 numbers.push(Math.PI);
             }
             else {
