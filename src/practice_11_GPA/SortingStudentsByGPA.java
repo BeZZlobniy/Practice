@@ -32,20 +32,20 @@ public class SortingStudentsByGPA {
 
     public static void main(String[] args) {
         Student[] students = {
-                new Student("Джамшут", 3.5),
-                new Student("Арамзяун", 3.8),
-                new Student("Джидулбек", 3.1),
-                new Student("Сулейман", 3.9)
+                new Student("Р”Р¶Р°РјС€СѓС‚", 3.5),
+                new Student("РђСЂР°РјР·СЏСѓРЅ", 3.8),
+                new Student("Р”Р¶РёРґСѓР»Р±РµРє", 3.1),
+                new Student("РЎСѓР»РµР№РјР°РЅ", 3.9)
         };
 
-        System.out.println("До сортировки:");
+        System.out.println("Р”Рѕ СЃРѕСЂС‚РёСЂРѕРІРєРё:");
         for (Student student : students) {
             System.out.println(student);
         }
 
         SortingStudentsByGPA.quickSort(students, 0, students.length - 1);
 
-        System.out.println("\nПосле сортировки по GPA (По убыванию):");
+        System.out.println("\nРџРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё РїРѕ GPA (РџРѕ СѓР±С‹РІР°РЅРёСЋ):");
         for (Student student : students) {
             System.out.println(student);
         }

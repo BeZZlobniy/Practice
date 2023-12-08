@@ -9,21 +9,21 @@ public class Tester {
         Integer[] intArr = {1, 2, 4, 5};
         System.out.println(toList(intArr));
 
-        String[] stringArr = {"hate", "the", "java"};
+        String[] stringArr = {"Hate", "9", "AM"};
         System.out.println(toList(stringArr));
 
         Arr<String> stringArr1 = new Arr<>();
-        stringArr1.add("1é");
-        stringArr1.add("2é");
-        stringArr1.add("3é");
-        stringArr1.add("4é");
-        stringArr1.add("5é");
-        stringArr1.add("6é");
-        stringArr1.add("7é");
-        stringArr1.add("8é");
-        stringArr1.add("9é");
-        stringArr1.add("10é");
-        stringArr1.add("11é");
+        stringArr1.add("1Ð¹");
+        stringArr1.add("2Ð¹");
+        stringArr1.add("3Ð¹");
+        stringArr1.add("4Ð¹");
+        stringArr1.add("5Ð¹");
+        stringArr1.add("6Ð¹");
+        stringArr1.add("7Ð¹");
+        stringArr1.add("8Ð¹");
+        stringArr1.add("9Ð¹");
+        stringArr1.add("10Ð¹");
+        stringArr1.add("11Ð¹");
         System.out.println(stringArr1.get(8));
         System.out.println(stringArr1.getSize());
 

@@ -10,7 +10,7 @@ class FileAppend {
     {
         Scanner scanner = new Scanner(System.in);
         String fileName = "file.txt";
-        System.out.println("Введите текст для добавления");
+        System.out.println("Р’РІРµРґРёС‚Рµ С‚РµРєСЃС‚ РґР»СЏ РґРѕР±Р°РІР»РµРЅРёСЏ");
         String text = scanner.nextLine();
 
         // `true` will append the new data

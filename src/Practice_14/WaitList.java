@@ -29,7 +29,7 @@ public class WaitList<E> implements IWaitList<E> {
 
     @Override
     public E remove() {
-        if (isEmpty()) throw new IllegalStateException("Очередь пуста");
+        if (isEmpty()) throw new IllegalStateException("РћС‡РµСЂРµРґСЊ РїСѓСЃС‚Р°");
         return components.remove();
     }
 

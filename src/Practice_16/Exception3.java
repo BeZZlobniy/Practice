@@ -7,7 +7,7 @@ public class Exception3 {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter an integer ");
         String intString = myScanner.next();
-        int i = 2;
+        int i = 0;
         try {
             i = Integer.parseInt(intString);
             System.out.println(2 / i);

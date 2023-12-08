@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251">
-    <file url="file://$PROJECT_DIR$/src/Practice_13/FileWrite.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/Practice_14/BoundedWaitList.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/Practice_14/Main.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/Practice_14/WaitList.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Practice_13/FileAppend.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_13/FileRead.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_13/FileWrite.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/BoundedWaitList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/IWaitList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/UnfairWaitList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_14/WaitList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_17/IncorrectINNException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_17/TestException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_18/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_18/Matrix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_18/MinMax.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_18/TaskGeneric.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_19/Arr.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_19/Tester.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Practice_19/TryMakeList.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/Practice_20/Calc.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Practice_20/CalcController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Practice_20/CalcView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Practice_20/Driver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/AbstractChairFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/Chair.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/ChairFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/FunctionalChair.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/MagicChair.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Practice_22/t2/VictorianChair.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/practice1/Practice1.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/practice_11_GPA/SortingStudentsByGPA.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/practice_11_GPA/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/practice_11_GPA/StudentComporator.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/practice_11_task3/Main.java" charset="windows-1251" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
