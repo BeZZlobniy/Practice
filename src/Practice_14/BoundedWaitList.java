@@ -8,7 +8,7 @@ public class BoundedWaitList<E> extends WaitList<E> {
     public BoundedWaitList(int capacity) {
         super();
         if (capacity <= 0)
-            throw new IllegalArgumentException("Размер очереди должен быть больше 0, было получено значение: " + capacity);
+            throw new IllegalArgumentException("Р Р°Р·РјРµСЂ РѕС‡РµСЂРµРґРё РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ Р±РѕР»СЊС€Рµ 0, Р±С‹Р»Рѕ РїРѕР»СѓС‡РµРЅРѕ Р·РЅР°С‡РµРЅРёРµ: " + capacity);
         this.capacity = capacity;
     }
 
@@ -23,7 +23,7 @@ public class BoundedWaitList<E> extends WaitList<E> {
 
     @Override
     public void add(E element) {
-        if (components.size() == capacity) throw new IllegalStateException("Очередь достигла заданного предела");
+        if (components.size() == capacity) throw new IllegalStateException("РћС‡РµСЂРµРґСЊ РґРѕСЃС‚РёРіР»Р° Р·Р°РґР°РЅРЅРѕРіРѕ РїСЂРµРґРµР»Р°");
         components.add(element);
     }
 

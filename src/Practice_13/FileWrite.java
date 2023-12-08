@@ -8,14 +8,14 @@ public class FileWrite {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите информацию для записи в файл:");
+        System.out.println("Р’РІРµРґРёС‚Рµ РёРЅС„РѕСЂРјР°С†РёСЋ РґР»СЏ Р·Р°РїРёСЃРё РІ С„Р°Р№Р»:");
         String input = scanner.nextLine();
 
         try (FileWriter writer = new FileWriter("file.txt")) {
             writer.write(input);
-            System.out.println("Информация успешно записана в файл.");
+            System.out.println("РРЅС„РѕСЂРјР°С†РёСЏ СѓСЃРїРµС€РЅРѕ Р·Р°РїРёСЃР°РЅР° РІ С„Р°Р№Р».");
         } catch (IOException e) {
-            System.out.println("Ошибка при записи в файл: " + e.getMessage());
+            System.out.println("РћС€РёР±РєР° РїСЂРё Р·Р°РїРёСЃРё РІ С„Р°Р№Р»: " + e.getMessage());
         }
     }
 }

@@ -14,15 +14,15 @@ public class TestException {
 
     public static void validateINN(String input) throws IncorrectINNException {
         if (input == null || input.isEmpty()) {
-            throw new IncorrectINNException("ИНН не может быть пустым");
+            throw new IncorrectINNException("РРќРќ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј");
         } else if (!isInteger(input)) {
-            throw new IncorrectINNException("ИНН должен состоять из цифр");
+            throw new IncorrectINNException("РРќРќ РґРѕР»Р¶РµРЅ СЃРѕСЃС‚РѕСЏС‚СЊ РёР· С†РёС„СЂ");
         } else if (input.length() != 12 & input.length() != 10) {
-            throw new IncorrectINNException("ИНН должен состоять из 10 или 12 цифр");
+            throw new IncorrectINNException("РРќРќ РґРѕР»Р¶РµРЅ СЃРѕСЃС‚РѕСЏС‚СЊ РёР· 10 РёР»Рё 12 С†РёС„СЂ");
         } else if (Integer.parseInt(input) == 0) {
-            throw new IncorrectINNException("Некорректный номер ИНН не должен состоять только из 0");
+            throw new IncorrectINNException("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ РРќРќ РЅРµ РґРѕР»Р¶РµРЅ СЃРѕСЃС‚РѕСЏС‚СЊ С‚РѕР»СЊРєРѕ РёР· 0");
         } else if (input.startsWith("00")) {
-            throw new IncorrectINNException("Некорректный номер региона (первые 2 цифры)");
+            throw new IncorrectINNException("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ СЂРµРіРёРѕРЅР° (РїРµСЂРІС‹Рµ 2 С†РёС„СЂС‹)");
         }
     }
 
@@ -31,9 +31,9 @@ public class TestException {
         String input = scanner.nextLine();
         try{
             validateINN(input);
-            System.out.println("ИНН корректен");
+            System.out.println("РРќРќ РєРѕСЂСЂРµРєС‚РµРЅ");
         } catch (IncorrectINNException e){
-            System.out.println("Ошибка: " + e.getMessage());
+            System.out.println("РћС€РёР±РєР°: " + e.getMessage());
         }
     }
 }

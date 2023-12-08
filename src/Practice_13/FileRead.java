@@ -10,10 +10,10 @@ public class FileRead {
         try (BufferedReader reader = new BufferedReader(new FileReader("file.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                System.out.println("Вывод из файла: \n" +line);
+                System.out.println("Р’С‹РІРѕРґ РёР· С„Р°Р№Р»Р°: \n" +line);
             }
         } catch (IOException e) {
-            System.out.println("Ошибка при чтении файла: " + e.getMessage());
+            System.out.println("РћС€РёР±РєР° РїСЂРё С‡С‚РµРЅРёРё С„Р°Р№Р»Р°: " + e.getMessage());
         }
     }
 }

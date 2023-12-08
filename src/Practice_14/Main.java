@@ -13,7 +13,7 @@ public class Main {
         wl.add("Another message");
         wl.add("New another message");
         System.out.println(wl);
-        System.out.println("Удаляемый элемент: " + wl.remove());
+        System.out.println("РЈРґР°Р»СЏРµРјС‹Р№ СЌР»РµРјРµРЅС‚: " + wl.remove());
         System.out.println(wl);
 
         BoundedWaitList<String> bwl = new BoundedWaitList<>(3);
@@ -28,7 +28,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("Количество элементов: " + bwl.getCapacity());
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ: " + bwl.getCapacity());
         System.out.println();
 
         UnfairWaitList<Integer> uwl = new UnfairWaitList<>();
